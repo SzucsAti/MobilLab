@@ -16,8 +16,6 @@ public interface Repository {
 
     void saveBook(Book book);
 
-    //void updateSessions(List<Session> sessions);
-
     void removeBook(Book book);
 
     boolean isInDB(Book book);

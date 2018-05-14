@@ -29,21 +29,7 @@ public class SugarOrmRepository implements Repository {
     public void saveBook(Book book) {
         SugarRecord.saveInTx(book);
     }
-/*
-    @Override
-    public void updateSessions(List<Session> sessions) {
-        List<Session> mySessions = getSessions();
-        List<Session> toUpdate = new ArrayList<>(mySessions.size());
-        for (Session mySession : mySessions) {
-            for (Session session : sessions) {
-                if (session.getId().equals(mySession.getId())) {
-                    toUpdate.add(session);
-                }
-            }
-        }
-        SugarRecord.saveInTx(toUpdate);
-    }
-*/
+
     @Override
     public void removeBook(Book book) {
         SugarRecord.deleteInTx(book);

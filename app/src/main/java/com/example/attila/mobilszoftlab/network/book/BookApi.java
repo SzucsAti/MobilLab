@@ -1,6 +1,7 @@
 package com.example.attila.mobilszoftlab.network.book;
 
 import com.example.attila.mobilszoftlab.model.Book;
+import com.example.attila.mobilszoftlab.model.BooksResult;
 
 import java.util.List;
 
@@ -11,13 +12,24 @@ import retrofit2.http.*;
 public interface BookApi {
 
     /**
+     * List all books
+     *
+     * @return Call<Void>
+     */
+
+    @GET("book")
+    Call<BooksResult> getBooks(
+    );
+
+
+    /**
      * Get all books from the list
      *
      * @return Call<List<Book>>
      */
 
-    @GET("book/")
-    Call<List<Book>> getBooks();
+    //GET("book/")
+    //Call<List<Book>> getBooks();
 
 
 

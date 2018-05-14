@@ -4,8 +4,9 @@ import java.util.Objects;
 
 
 import com.google.gson.annotations.SerializedName;
+import com.orm.SugarRecord;
 
-public class Book   {
+public class Book extends SugarRecord{
 
     @SerializedName("isbn")
     private Integer isbn = null;
@@ -22,7 +23,8 @@ public class Book   {
     @SerializedName("numberOfPages")
     private Integer numberOfPages = null;
 
-
+    public Book (){
+    }
 
     public Integer getIsbn() {
         return isbn;

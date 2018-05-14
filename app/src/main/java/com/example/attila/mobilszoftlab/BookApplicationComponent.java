@@ -6,6 +6,7 @@ import com.example.attila.mobilszoftlab.interactor.InteractorModule;
 import com.example.attila.mobilszoftlab.network.NetworkModule;
 import com.example.attila.mobilszoftlab.repository.RepositoryModule;
 import com.example.attila.mobilszoftlab.ui.UIModule;
+import com.example.attila.mobilszoftlab.ui.details.BookDetailsActivity;
 import com.example.attila.mobilszoftlab.ui.list.BookListActivity;
 import com.example.attila.mobilszoftlab.ui.list.BookListPresenter;
 
@@ -21,4 +22,6 @@ public interface BookApplicationComponent {
     void inject(BookInteractor bookInteractor);
 
     void inject(BookListPresenter bookListPresenter);
+
+    void inject(BookDetailsActivity bookDetailsActivity);
 }

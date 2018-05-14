@@ -1,0 +1,75 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/bookTitle"
+            android:width="200dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Author"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/bookAuthor"
+            android:width="200dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Published Date"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/bookPublishDate"
+            android:width="200dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Number of pages"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/bookNumberOfPages"
+            android:inputType="number"
+            android:width="200dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Isbn"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/bookIsbn"
+            android:inputType="number"
+            android:width="200dp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnCreateBook"
+            android:layout_column="1"
+            android:text="Create"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <Button
+            android:id="@+id/btnCancelCreateBook"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:gravity="left"/>
+    </TableRow>
+</TableLayout>

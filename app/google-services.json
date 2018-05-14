@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648570900245",
+    "firebase_url": "https://mlab-a99b5.firebaseio.com",
+    "project_id": "mlab-a99b5",
+    "storage_bucket": "mlab-a99b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648570900245:android:4928bc016834b1b1",
+        "android_client_info": {
+          "package_name": "com.example.attila.mobilszoftlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648570900245-itcj9affg7uvj9rsud3js5pa0jtfggbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attila.mobilszoftlab",
+            "certificate_hash": "cc5d4fb69183d055dd612641b98d00c46f47989f"
+          }
+        },
+        {
+          "client_id": "648570900245-revnphciqlv2cgbsg8mcuobfl7pgmhsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE74_YuGU5F2AcI1iv6O5skGSY399Ff-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648570900245-revnphciqlv2cgbsg8mcuobfl7pgmhsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
