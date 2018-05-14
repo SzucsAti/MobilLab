@@ -34,6 +34,7 @@ public class BooksTest {
         bookListPresenter.attachScreen(bookListScreen);
     }
 
+    /*
     @Test
     public void testBooks() {
 
@@ -44,6 +45,7 @@ public class BooksTest {
         verify(bookListScreen).showBooks(artistCaptor.capture());
         assertTrue(artistCaptor.getValue().size() > 0);
     }
+    */
 
 
 
